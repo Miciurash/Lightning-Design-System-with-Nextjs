@@ -54,13 +54,13 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={styles.footer}>  
+          Created by
         <a
           href="https://mircea.trofimciuc.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Creted by
           <b>Mircea Trofimciuc</b>
         </a>
       </footer>
