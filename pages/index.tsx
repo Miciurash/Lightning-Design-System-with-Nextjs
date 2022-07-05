@@ -59,7 +59,7 @@ const Home: NextPage = () => {
         <a
           href="https://mircea.trofimciuc.com"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="follow"
         >
           <b>Mircea Trofimciuc</b>
         </a>
