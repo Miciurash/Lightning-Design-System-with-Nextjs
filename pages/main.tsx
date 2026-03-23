@@ -1,8 +1,6 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import React, { useState } from "react";
 
-import IconSettings from "@salesforce/design-system-react/components/icon-settings";
 import GlobalNavigationBar from "@salesforce/design-system-react/components/global-navigation-bar";
 import GlobalNavigationBarRegion from "@salesforce/design-system-react/components/global-navigation-bar/region";
 import GlobalNavigationBarDropdown from "@salesforce/design-system-react/components/global-navigation-bar/dropdown";
@@ -14,7 +12,8 @@ import Icon from "@salesforce/design-system-react/components/icon";
 import AppLauncher from "@salesforce/design-system-react/components/app-launcher";
 import AppLauncherExpandableSection from "@salesforce/design-system-react/components/app-launcher/expandable-section";
 import AppLauncherTile from "@salesforce/design-system-react/components/app-launcher/tile";
-import { WelcomeMat, Checkbox } from "@salesforce/design-system-react";
+import Checkbox from "@salesforce/design-system-react/components/checkbox";
+import WelcomeMat from "@salesforce/design-system-react/components/welcome-mat";
 
 const Main: NextPage = () => {
   const [openModal, setOpenModal] = useState(true);
